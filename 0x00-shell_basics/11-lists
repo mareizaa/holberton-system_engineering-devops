@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la PAHT/boot
+ls -la . .. /boot
