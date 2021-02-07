@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod drwxr-x--x dir_holbertondir
+chmod 751 dir_holberton
