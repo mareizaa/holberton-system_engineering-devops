@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Process and PID file
-echo $BASHPID > /var/run/holbertonscript.pid
+echo $$ > /var/run/holbertonscript.pid
 i=1
 while ((i))
 do
