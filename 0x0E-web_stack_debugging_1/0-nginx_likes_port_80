@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+sudo sed -i "s/8080/80/" /etc/nginx/sities-enabled/default
+sudo service nginx restart
