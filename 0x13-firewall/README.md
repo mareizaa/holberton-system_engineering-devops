@@ -1,12 +1,12 @@
 # 0x13. Firewall
 
 ## Concepts
-* [Web stack debugging] (https://intranet.hbtn.io/concepts/68)
+* [Web stack debugging](https://intranet.hbtn.io/concepts/68)
 
 ## Resources
 Read or Whatch
-* [What is a firewall] (https://en.wikipedia.org/wiki/Firewall_%28computing%29)
-* [How to configure a firewall with UFW] (https://www.digitalocean.com/community/tutorials/como-configurar-un-firewall-con-ufw-en-ubuntu-18-04-es)
+* [What is a firewall](https://en.wikipedia.org/wiki/Firewall_%28computing%29)
+* [How to configure a firewall with UFW](https://www.digitalocean.com/community/tutorials/como-configurar-un-firewall-con-ufw-en-ubuntu-18-04-es)
 
 ## More Info
 As explained in the **web stack debugging guide** concept page, `telnet` is a very good tool to check if sockets are open with telnet IP PORT. For example, if you want to check if port 22 is open on `web-02`:
