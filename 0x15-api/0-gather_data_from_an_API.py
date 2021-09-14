@@ -21,10 +21,9 @@ if __name__ == "__main__":
                 tasks.append(i.get('title'))
             number_task = number_task + 1
 
-    user_name = user.json()['name']
+    user_name = user.json().get('name')
 
     print("Employee {} is done with tasks({}/{})".format(user_name,
                                                          complete,
                                                          number_task))
-    for i in tasks:
-        print("\t {}".format(i))
+    print("\n".join(tasks))
