@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Returns information about his/her TODO list progress"""
+"""Returns information about his/her todo list progress"""
 import requests
 from sys import argv
 
@@ -18,7 +18,7 @@ if __name__ == "__main__":
         if i.get('userId') == int(user_id):
             if i.get('completed'):
                 complete = complete + 1
-                tasks.append('\t' + i.get('title'))
+                tasks.append('\t ' + i.get('title'))
             number_task = number_task + 1
 
     user_name = user.json()['name']
