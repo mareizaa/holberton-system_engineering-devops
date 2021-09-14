@@ -7,8 +7,10 @@ from sys import argv
 if __name__ == "__main__":
     user_id = argv[1]
     user = requests.get(
-        "https://jsonplaceholder.typicode.com/users/{}".format(user_id))
-    task = requests.get("https://jsonplaceholder.typicode.com/todos")
+        "https://jsonplaceholder.typicode.com/users/{}".format(user_id),
+        verify=False)
+    task = requests.get(
+        "https://jsonplaceholder.typicode.com/todos", verify=False)
 
     complete = 0
     number_task = 0
