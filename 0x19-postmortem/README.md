@@ -33,4 +33,4 @@ Using one of the web stack debugging project issue or an outage you have persona
 * **Corrective and preventative measures must contain:**
     * what are the things that can be improved/fixed (broadly speaking)   * a list of tasks to address the issue (be very specific, like a TODO, * * example: patch Nginx server, add monitoring on server memory…)
 
-* [My first Postmortem]{https://medium.com/@marce.3210/991b3e439ccc}
+**[My first Postmortem](https://medium.com/@marce.3210/991b3e439ccc)**
